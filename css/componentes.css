@@ -9,7 +9,11 @@ form {
     width: 400px;
     height: 200px;
     padding: 1.5rem;
+    filter: hue-rotate(410deg) brightness(110%) contrast(100%);
+
 }
+
+
 
 
 .campo {
