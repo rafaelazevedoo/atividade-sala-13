@@ -60,6 +60,23 @@ form {
     border-color: var(--cor-primaria);
 }
 
+<<<<<<< HEAD
+=======
+.esqueci-senha a {
+    text-align: center;
+    display: block;
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    transition: color 0.2s ease;
+}
+
+.esqueci-senha:hover  a{
+    color: var(--cor-subtexto);
+    
+}
+
+>>>>>>> b3d2290 (criação da tag a e sua estilização)
 button {
     background-color: var(--cor-primaria);
     color: white;
