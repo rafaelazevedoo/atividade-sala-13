@@ -34,7 +34,7 @@ form {
 
 
 .esqueci-senha a {
-    text-align: center;
+    text-align: left;
     display: block;
     font-size: 0.875rem;
     text-decoration: none;
@@ -47,6 +47,22 @@ form {
     
 }
 
+
+input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    border: solid 1px var(--cor-texto);
+    appearance: none; 
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--cor-primaria);
+   
+   
+}
 button {
     background-color: var(--cor-primaria);
     color: white;
