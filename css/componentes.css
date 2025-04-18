@@ -5,6 +5,13 @@ form {
 
 }
 
+ img {
+    width: 400px;
+    height: 200px;
+    padding: 1.5rem;
+}
+
+
 .campo {
     position: relative;
 }
