@@ -1,17 +1,26 @@
+main {
+    padding: 15px;
+
+}
+
+
 form {
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
 
+
+
 }
 
- img {
+img {
     width: 400px;
     height: 200px;
     padding: 1.5rem;
     filter: hue-rotate(410deg);
 
 }
+
 
 
 
@@ -53,9 +62,9 @@ form {
     transition: color 0.2s ease;
 }
 
-.esqueci-senha:hover  a{
+.esqueci-senha:hover a {
     color: var(--cor-subtexto);
-    
+
 }
 
 
@@ -63,7 +72,7 @@ input[type="checkbox"] {
     width: 13px;
     height: 13px;
     border: solid 1px var(--cor-texto);
-    appearance: none; 
+    appearance: none;
     border-radius: 50%;
     background-color: #fff;
     cursor: pointer;
@@ -71,9 +80,10 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked {
     background-color: var(--cor-primaria);
-   
-   
+
+
 }
+
 button {
     background-color: var(--cor-primaria);
     color: white;
@@ -89,3 +99,23 @@ button:hover {
     background-color: var(--cor-primaria-hover);
 }
 
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.redes-sociais a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-size: 1.25rem;
+    transition: color 0.2s ease;
+}
+
+.redes-sociais a:hover {
+    color: var(--cor-primaria);
+}
